@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteY="75dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="241dp"
         android:layout_height="80dp"
         android:text="calculate"
@@ -25,46 +25,46 @@
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="465dp" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
+    <TextView
+        android:id="@+id/TEXTVIEW2"
+        android:layout_width="324dp"
+        android:layout_height="92dp"
         android:text="CALCULATOR"
         android:textSize="34sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="53dp" />
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="34dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/EDITTEXT2"
+        android:layout_width="282dp"
+        android:layout_height="99dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:text="FIRST NUMBER"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <EditText
+        android:id="@+id/EDITTEXT1"
+        android:layout_width="282dp"
+        android:layout_height="83dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="SECOND NUMBER"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <TextView
+        android:id="@+id/TEXTVIEW1"
+        android:layout_width="304dp"
+        android:layout_height="137dp"
         android:text="TOTAL"
         android:textSize="34sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="599dp" />
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="594dp" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="326dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="88dp"
-        android:text="First number"
-        android:textSize="34sp"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        tools:layout_editor_absoluteX="50dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="305dp"
-        android:layout_height="82dp"
-        android:text="Second number"
-        android:textSize="34sp"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="321dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
